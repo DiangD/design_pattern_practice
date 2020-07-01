@@ -10,3 +10,4 @@
 * 简单工厂模式 -> com.qzh.design.pattern.creational.simplefactory
 * 工厂方法模式 -> com.qzh.design.pattern.creational.factorymethod
 * 抽象工厂模式 -> com.qzh.design.pattern.creational.abstractfactory
+* 建造者模式 -> com.qzh.design.pattern.creational.builder
