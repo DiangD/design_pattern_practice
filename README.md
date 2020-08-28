@@ -12,3 +12,4 @@
 * 抽象工厂模式 -> com.qzh.design.pattern.creational.abstractfactory
 * 建造者模式 -> com.qzh.design.pattern.creational.builder
 * 单例模式 -> com.qzh.design.pattern.creational.singleton
+* 代理模式 -> com.qzh.design.pattern.structural.proxy
