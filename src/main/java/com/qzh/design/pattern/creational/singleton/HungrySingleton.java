@@ -9,7 +9,7 @@ import java.io.Serializable;
  * @Version 1.0
  * @Description 饿汉式
  **/
-public class HungrySingleton implements Serializable {
+public class HungrySingleton implements Serializable,Cloneable {
     public static final HungrySingleton HUNGRY_SINGLETON = new HungrySingleton();
 
     private HungrySingleton() {
@@ -22,5 +22,8 @@ public class HungrySingleton implements Serializable {
         return HUNGRY_SINGLETON;
     }
 
-
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return getInstance();
+    }
 }
