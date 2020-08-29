@@ -14,3 +14,4 @@
 * 单例模式 -> com.qzh.design.pattern.creational.singleton
 * 代理模式 -> com.qzh.design.pattern.structural.proxy
 * 原型模式 -> com.qzh.design.pattern.creational.prototype
+* 外观模式 -> com.qzh.design.pattern.structural.facade
