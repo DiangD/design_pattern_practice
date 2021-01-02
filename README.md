@@ -16,3 +16,4 @@
 * 原型模式 -> com.qzh.design.pattern.creational.prototype
 * 外观模式 -> com.qzh.design.pattern.structural.facade
 * 装饰模式 -> com.qzh.design.pattern.structural.decorator
+* 适配器模式 -> com.qzh.design.pattern.structural.adapter
