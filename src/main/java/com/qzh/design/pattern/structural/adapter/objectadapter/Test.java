@@ -1,8 +1,5 @@
 package com.qzh.design.pattern.structural.adapter.objectadapter;
 
-import com.qzh.design.pattern.structural.adapter.classadapter.Adapter;
-import com.qzh.design.pattern.structural.adapter.classadapter.ConcreteTarget;
-import com.qzh.design.pattern.structural.adapter.classadapter.Target;
 
 /**
  * @ClassName Test
@@ -13,7 +10,7 @@ import com.qzh.design.pattern.structural.adapter.classadapter.Target;
  **/
 public class Test {
     public static void main(String[] args) {
-        com.qzh.design.pattern.structural.adapter.classadapter.Target target = new ConcreteTarget();
+        Target target = new ConcreteTarget();
         target.request();
 
         Target adapter = new Adapter();

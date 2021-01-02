@@ -1,6 +1,5 @@
 package com.qzh.design.pattern.structural.adapter.objectadapter;
 
-import com.qzh.design.pattern.structural.adapter.classadapter.Adaptee;
 
 /**
  * @ClassName Adapter
