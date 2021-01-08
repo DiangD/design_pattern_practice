@@ -5,7 +5,7 @@ package com.qzh.design.pattern.behavioral.templatemethod;
  * @Author DiangD
  * @Date 2021/1/8
  * @Version 1.0
- * @Description 模板方法模式 提供可供自定义的方法
+ * @Description 模板方法模式 提供可供自定义的方法 AQS
  **/
 public abstract class ACourse {
     protected final void makeCourse() {
